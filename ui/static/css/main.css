@@ -1,0 +1,195 @@
+body {
+/*    margin: 0;
+    padding: 0;
+    min-height: 100vh;*/
+    font-family: "Consolas", monospace;
+    background: #f4f6fa;
+/*    color: #2d3748;*/
+}
+
+header {
+    background: white;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.cube {
+    width: 28px;
+    height: 28px;
+    background: #4c6ef5;
+    border-radius: 4px;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #2d3748;
+    border-bottom: 2px solid #2d3748;
+    padding-bottom: 4px;
+}
+
+main {
+    padding: 60px 40px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.empty {
+    color: #718096;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #718096;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #48bb78;
+    text-decoration: none;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: #2d3748;
+}
+
+.logo-text:visited {
+    text-decoration: none;
+    color: #2d3748;
+}
+
+.snippet {
+    max-width: 720px;
+    margin: 64px auto; 
+    padding: 24px 28px;
+
+    background-color: #ffffff;
+    border-radius: 14px;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+	
+
+}
+
+.metadata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.metadata:last-child {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+pre {
+    background: #f1f3f5;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.95rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+.snippets-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.snippets-table th,
+.snippets-table td {
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.snippets-table thead th {
+  border-bottom: 2px solid #e5e7eb;
+  color: #374151;
+  font-weight: 600;
+}
+
+.snippets-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.snippets-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.snippets-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.snippets-table a:hover {
+  text-decoration: underline;
+}
+
+.empty {
+  color: #6b7280;
+}
