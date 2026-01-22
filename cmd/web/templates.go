@@ -39,9 +39,12 @@ func newTemplateCache() (map[string]*template.Template, error) {
 			return nil, err
 		}
 
+		fmt.Println("ts:", ts)
+
 		cache[name] = ts
 	}
 	
+	fmt.Println("cache:", cache)	
 	return cache, nil
 	
 }
